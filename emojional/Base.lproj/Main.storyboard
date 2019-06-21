@@ -19,16 +19,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSo-rx-viO">
-                                <rect key="frame" x="185" y="664" width="65" height="84"/>
+                                <rect key="frame" x="185" y="663" width="65" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="🤯"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="phe-jy-Tnt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGD-fY-baR">
                                 <rect key="frame" x="130" y="177" width="193" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="🤔"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7mx-h5-RZS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.73412682340446145" green="1" blue="0.68858616860526101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
